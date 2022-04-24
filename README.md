@@ -1,13 +1,13 @@
-Figma layout
+FIGMA LAYOUT
 ![figmalayout](https://user-images.githubusercontent.com/102942137/164969144-090f0f30-9bab-4c24-83a4-f717d725ec85.png)
 
-Responsive register screen in desktop view ,tab ,mobile view
+RESPONSIVE REGISTER SCREEN IN DESKTOP,TAB AND MOBILE VIEW
 ![register page](https://user-images.githubusercontent.com/102942137/164969167-40cd06ad-2c6a-4eac-9881-7ce2f4f82530.png)
 
 
 ![register in mobile view](https://user-images.githubusercontent.com/102942137/164969193-c21e4edc-d742-4fbf-a8da-69741fe70185.png)
 
-Google home page
+GOOGLE HOME PAGE
 ![google layout](https://user-images.githubusercontent.com/102942137/164969215-4228ff36-3973-4fa4-825a-2a2ca67bc341.png)
 
 HAMBURGER MENU ICON IN
