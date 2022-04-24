@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>button </title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+    
+   .button_1{
+           position: relative;
+            left: 249px;
+            top: 279px;
+        
+       width:187px;
+       height:48px;
+       background-color:#9D3FE7;
+       text-align: center;
+       color: white;
+       border-radius: 4px;
+      border: none;
+      outline: none;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 64px;
+      padding-right: 64px;
+       font-size: 18px ;
+       font-style: normal;
+       font-weight: 400,Regular;
+       font-family:Arial, Helvetica, sans-serif;
+   }
+   .button_2{
+    position: relative;
+    left: 480px;
+    top: 279px;
+    width:187px;
+    height:48px;
+    background-color:white;
+    text-align: center;
+    color: #9D3FE7;
+    border-radius: 5px;
+    border:2px solid #9D3FE7;
+    padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 64px;
+      padding-right: 64px;
+       font-size: 18px ;
+       font-style: normal;
+       font-weight: 400;
+       font-family:Arial, Helvetica, sans-serif;  
+   }
+
+   .text_1{
+    position: relative;
+    left: 1000px;
+    top: 290px;
+    width:187px;
+    height:48px;
+    min-width: 45px;
+    min-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #9D3FE7;
+    position:absolute;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: none;
+    outline: none;
+
+    
+ }
+ .text_2{
+     min-width:40px;
+     min-height:0px;
+     margin-top:12px;
+     margin-left: 64px;
+     
+ }
+   
+   .button_1:hover{
+     background-color:#AE60EB;
+   }
+   
+   .button_1:focus{
+       background-color: #6A17AB;
+   }
+   .button_1:disabled{
+       background-color: #D4D2D5;
+   }
+
+
+   .button_2:hover{
+     color:#AE60EB;
+     border:2px solid #AE60EB;
+   }
+   
+   .button_2:focus{
+       color: #6A17AB;
+       border:2px solid #6A17AB;
+   }
+   .button_2:disabled{
+       color: #D4D2D5;
+       border:2px solid #D4D2D5;
+   }
+
+   .text_1:hover{
+     color:#AE60EB;
+     
+   }
+   
+   .text_1:focus{
+       color: #6A17AB;
+       
+   }
+   .text_1:disabled{
+       color: #D4D2D5;
+   }
+   
+</style>
+</head>
+<body>
+<input type="button" class="button_1" id="btn" value="Button" onclick="save(); this.disabled=true;  "/>
+
+<input type="button" class="button_2" id="btn" value="Button" onclick="save(); this.disabled=true;  "/>
+<a href="javascript:save();this.disabled=true;" ><button class="text_1" onclick="save(); this.disabled=true;" id="btn">More<span class="text_2">🠒</span></button></a>
+</body>
+<script type="text/javascript">
+
+function save()
+{
+    var msg=document.getElementById('btn');
+}
+
+</script>
+    </html>

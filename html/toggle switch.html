@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            switch
+        </title>
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px auto;
+        width:100%;
+       max-width: 1024px;
+      
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p{
+    color:gray;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top:30px;
+    right:80px;
+    
+    }
+    .switch{
+        position: relative;
+        display: inline-block;
+        left:40px;
+        width:80px;
+        height:40px;
+        
+    }
+    .switch input{
+        width:0;
+        height:0;
+        opacity: 0;
+    }
+.slider{
+  position: absolute;
+  border-radius: 50px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:lightgray;
+  /* -webkit-transition: .5s; */
+  transition: .4s;
+}
+
+.slider:before{
+position: absolute;
+border-radius: 25px;
+content: "";
+height: 36px;
+width: 35px;
+left: 2px;
+top: 1.5px;
+background-color: white;
+/* box-shadow: 1px 1px 1px 1px gainsboro; */
+/* -webkit-transition: .4s; */
+transition: .4s;
+}
+input:checked + .slider{
+    background-color: green;
+}
+input:checked + .slider:before{
+    /* -webkit-transform: translateX(40px);
+  -ms-transform: translateX(40px); */
+    transform: translateX(41px);
+}
+
+
+</style>
+</head>
+<body>
+    <div class="cont">
+   <p>Feature 1</p>
+   <label class="switch">
+       <input type="radio" name="rad">
+       <span class="slider"></span>
+   </label><br>
+   <p>Feature 2</p>
+   <label class="switch">
+    <input type="radio"name="rad">
+    <span class="slider"></span>
+   </label><br>
+   <p>Feature 3</p>
+   <label class="switch">
+    <input type="radio"name="rad">
+    <span class="slider"></span>
+</label>
+</div>
+</body>
+</html>

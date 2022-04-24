@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    max-width: 600px;
+    padding: 0 20px;
+}
+.wrapper .parent-tab{
+
+margin:5px;
+box-shadow: 2px 2px 8px 4px #E5E9F2;
+}
+.wrapper .parent-tab label{
+
+background-color: aqua;
+padding:10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+border-radius: 5px;
+position: relative;
+
+}
+
+.wrapper label span{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wrapper label .icon{
+    height: 30px;
+    width: 30px;
+    color: black;
+    display: block;
+    font-size: 15px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
+.wrapper label .icon i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.wrapper .parent-tab .content{
+max-height: 0px;
+overflow: hidden;
+transition: all .3s linear;
+}
+.parent-tab input:checked ~ .content{
+max-height:100vh;   
+}
+
+.parent-tab input:checked ~ label .icon i:before
+{
+
+content:"";
+   
+}
+.wrapper .parent-tab .content p{
+
+font-size: 16px;
+padding: 15px 20px;
+}
+.wrapper input{
+    display: none;
+}
+
+.tab-3 input:checked ~ .content{
+    padding: 5px 10px;
+}
+
+
+
+
+

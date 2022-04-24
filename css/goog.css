@@ -1,0 +1,590 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.cont{
+        margin:0px auto;
+        width:100%;
+        max-width:2550px;
+       
+    
+}
+nav{
+    
+    max-width: 100%;
+    display: flex;
+    justify-content:right;
+    height: 30px;
+    margin-top: 16px;
+   
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+   
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0px 8px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.icon,
+.icon2{
+
+width:15px;
+height: 30px;
+border-radius: 50px;
+cursor: pointer;
+line-height: 32px;
+text-align: center;
+margin-right:px;
+font-size: 15px;
+
+}
+
+
+
+.icon:hover{
+background-color: gainsboro;
+}
+.icon2:hover{
+background-color: gainsboro;
+
+}
+
+@media(max-width:768px){
+    nav{
+        margin-top: 5px;
+    }
+   
+    .header-nav a{
+        
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        padding: 0px 6px;
+        
+    }
+    .icon,
+    .icon2{
+      
+        width:9px;
+        height: 17px;
+        line-height: 17px;
+        margin-right:3px; 
+        font-size: 12px;
+    
+       
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
+}
+@media(max-width:450px){
+    nav{
+        margin-top: -1px;
+    }
+    .header-nav a{
+        
+        text-decoration: none;
+        color: black;
+        font-size:5px;
+        padding: 0px 2px;
+        
+    }
+    .icon,
+    .icon2{
+        width:6px;
+        height: 10px;
+        line-height: 10px;
+        margin-right:0px; 
+        /* text-decoration: none; */
+        font-size: 6px;
+        
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+   
+}
+
+
+
+
+.cont-2{
+    margin:0px auto;
+    max-width:1024px;
+   
+}
+
+.section-1{
+    /* max-width:100%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+    margin-top: 120px;
+    
+}
+.logo{
+   
+    /* display: flex; */
+    width: 280px;
+    
+}
+.s-box{
+    margin-top: 40px;
+    padding-right:1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.s-input{
+    font-size: 15px;
+    padding-left: 50px;
+    width:450px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    outline:none;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+
+.search-icon{
+    font-size: 15px;
+    position: relative;
+    left:40px;
+    color:grey;
+   
+    
+}
+.mic-icon{
+    width:12px;
+    height:16px;
+    position: relative;
+    right:30px;
+    top:2px;
+    
+}
+
+
+
+
+
+.ctr{
+    display: flex;
+    flex-direction: row;
+    width:450px;
+    height:110px;
+    justify-content: space-evenly;
+    position: relative;
+    top:25px;
+    /* border: 2px solid black; */
+    /* left:10px; */
+}
+
+.sqr{
+position: relative;
+width:110px;
+height:80px;
+background:none;
+border-radius: 5px;
+display: flex; 
+flex-direction: column;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding-bottom: 25px;
+/* background: green; */
+}
+
+.sqr:hover{
+    background:lightgrey; 
+}
+
+.circ{
+    position: fixed;
+    
+    width:40px;
+    height: 40px;
+    border-radius:50px;
+    background: #e6e6e6; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gc,
+.gmap{
+
+width:25px;
+height:25px;
+}
+#ytube{
+    
+    font-size: 22px;
+    color: red;
+}
+#plus{
+    
+    font-size: 22px;
+}
+#pluss{
+    
+    font-size: 28px;
+}
+.gm{
+    
+width:20px;
+height:15px;
+}
+
+.sqr p{
+    position:absolute;
+    top:60px;
+    font-size: 15px;
+}
+.sqr a{
+    text-decoration: none;
+}
+
+
+.dots{
+    position: relative;
+    left:38px;
+    bottom:25px;
+    width: 10px;
+    height:26px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    font-size: 12px;
+    display: none;
+}
+.dots:hover{
+    background: #e6e6e6; 
+    }
+    
+.sqr:hover .dots  {
+    display: flex;
+   
+}
+
+
+
+
+
+@media(max-width:768px){
+
+    .section-1{
+       
+        margin-top: 100px;
+        
+    }   
+   .circ{
+        position: fixed;
+        
+        width:38px;
+        height: 38px;
+        border-radius:50px;
+        background: #e6e6e6; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .gc,
+    .gmap{
+    
+    width:22px;
+    height:22px;
+    }
+    #ytube{
+        
+        font-size: 20px;
+        color: red;
+    }
+    #plus{
+        
+        font-size: 18px;
+    }
+    #pluss{
+        
+        font-size: 24px;
+    }
+    .gm{
+        
+    width:18px;
+    height:15px;
+    }
+    
+    .dots{
+        position: relative;
+        left:38px;
+        bottom:25px;
+        width: 10px;
+        height:22px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:gray;
+        font-size: 10px;
+        display: none;
+    }
+
+}
+
+
+
+
+@media(max-width:450px){
+    .logo{
+      
+        /* display: flex; */
+        width: 120px;
+    }
+    .section-1{
+       
+        margin-top: 60px;
+        
+    }
+    .s-box{
+        margin-top: 20px;
+        padding-left:0px;
+        
+    }
+   .s-input{
+        font-size: 8px;
+        width:160px;
+        height: 25px;
+    }
+    
+    .search-icon{
+        font-size: 8px;
+        position: relative;
+        left:30px;
+        
+    }
+    .mic-icon{
+        width:7px;
+        height:9px;
+        position: relative;
+        right:20px;
+        top:1px;
+        
+    }
+
+
+.ctr{
+        display: flex;
+        flex-direction: row;
+        width:180px;
+        height:40px;
+        justify-content: space-evenly;
+        position: relative;
+        top:15px;
+        left:5px;
+}
+
+.sqr{
+
+        width:120px;
+        height:30px;
+        background:none;
+        border-radius: 5px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        
+}
+.circ{
+    position: fixed;
+    width:20px;
+    height: 20px;
+    border-radius:50px;
+    background: #e6e6e6; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}         
+
+.gc,
+.gmap{
+
+width:12px;
+height:12px;
+}
+#ytube{
+    
+    font-size: 12px;
+    color: red;
+   
+}
+#plus{
+   
+    font-size: 10px;
+}
+#pluss{
+   
+    font-size: 14px;
+}
+.gm{
+    
+    width:10px;
+    height:8px;
+    }
+    
+.sqr p{
+    position:absolute;
+    top:25px;
+    font-size: 6px;
+}
+.dots{
+    position: relative;
+    left:15px;
+    bottom:8px;
+    width: 5px;
+    height:10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    font-size: 4px;
+    display: none;
+}
+
+
+}
+
+
+
+
+@media(max-width:280px){
+    .section-1{
+       
+        margin-top: 60px;
+        
+    }
+    .s-box{
+        margin-top: 18px;
+        
+    }
+    .s-input{
+        font-size: 8px;
+        width:140px;
+        height: 18px;
+    }
+    .ctr{
+        display: flex;
+        flex-direction: row;
+        width:160px;
+        height:40px;
+        justify-content: space-evenly;
+        position: relative;
+        top:15px;
+        left:5px;
+}
+
+.sqr{
+
+        width:120px;
+        height:30px;
+        background:none;
+        border-radius: 5px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        
+}
+.circ{
+    position: fixed;
+    width:16px;
+    height: 16px;
+    border-radius:50px;
+    background: #e6e6e6; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}         
+
+.gc,
+.gmap{
+
+width:10px;
+height:10px;
+}
+#ytube{
+    
+    font-size: 8px;
+    color: red;
+   
+}
+#plus{
+   
+    font-size: 8px;
+}
+#pluss{
+   
+    font-size: 10px;
+}
+.gm{
+    
+    width:7px;
+    height:5px;
+    }
+    
+.sqr p{
+    position:absolute;
+    top:22px;
+    font-size: 6px;
+}
+.dots{
+    position: relative;
+    left:12px;
+    bottom:9px;
+    width: 5px;
+    height:10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    font-size: 4px;
+    display: none;
+}
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>google layout</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body{
+            width:100%;
+            max-width: 1024px;
+            margin:0px auto;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .total{
+            width:1024px;
+            height: 740px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: white;
+        }
+        .set1{
+            width:480px;
+            height:740px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(9, 115, 214);
+            /* overflow: hidden; */
+            position: relative;
+
+        }
+        .set2{
+            margin-top: 40px;
+            width: 400px;
+            height:620px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .set{
+            position: absolute;
+            opacity: 0.2;
+            width:480px;
+            height:740px;
+            }
+.logo{
+position: absolute;
+top:60px;
+left:80px;
+}
+.head{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top:50px;
+    left:120px;
+}
+.quotes i{
+color:aqua;
+font-size:18px;
+position: absolute;
+top:210px;
+left:80px;
+}
+.para{
+position: absolute;
+top:240px;
+left:80px;
+font-size: 16px;
+color: white;
+line-height: 30px;
+}
+.sqr{
+    width:15px;
+    height:15px;
+    border-radius: 25px;
+    position: relative;
+    background-color: rgb(9, 171, 9);
+    top:80px;
+    right:60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sqr i{
+display: flex;
+align-items: center;
+color:white;
+font-size: 8px;
+font-weight: lighter;
+}
+h2{
+    font-size:23px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.sub{
+    position: absolute;
+    top:50px;
+    left:0px;
+    color:rgb(165, 164, 164);
+    font-size: 13px;
+}
+.lab1{
+    position: absolute;
+    top:130px;
+    left:0px;
+    color:rgb(131, 128, 128);
+    font-size: 15px;
+}
+.lab2{
+    position: absolute;
+    top:230px;
+    left:0px;
+    color:rgb(131, 128, 128);
+    font-size: 15px;
+}
+.lab3{
+    position: absolute;
+    top:330px;
+    left:0px;
+    color:rgb(131, 128, 128);
+    font-size: 15px;
+}
+.txt1{
+    position: absolute;
+    top:160px;
+    left:0px;
+    width: 315px;
+    height:45px;
+    outline: none;
+    border:2px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    
+    }
+   .txt1:focus{
+    border:2px solid rgb(96, 164, 227);
+    box-shadow: 1px 4px 6px gainsboro;
+   }
+    .txt2{
+    position: absolute;
+    top:260px;
+    left:0px;
+    width: 315px;
+    height:45px;
+    outline: none;
+    border-radius: 5px;
+    border:2px solid #ccc;
+    
+    }
+    
+    .txt3{
+    position: absolute;
+    top:360px;
+    left:0px;
+    width: 315px;
+    height:45px;
+    outline: none;
+    border-radius: 5px;
+    border:2px solid #ccc;
+    }
+    ::placeholder { 
+    font-size: 12px;
+    color:rgb(141, 139, 139);
+   }
+    .side{
+    position: absolute;
+    top:380px;
+    left:280px;
+   font-size: 10px;
+   }
+
+
+   .container {
+  /* display: block; */
+  position: absolute;
+  /* padding-left: 35px; */
+  left:0px;
+  top:430px;
+  cursor: pointer;
+  font-size: 12px;
+  
+  /* user-select: none; */
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+ 
+}
+
+
+.checkmark {
+  position: absolute;
+  border-radius: 3px;
+  height: 14px;
+  width: 14px;
+  background-color: #eee;
+  
+}
+
+
+/* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 5.5px;
+  top: 2px;
+  width: 2px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+button{
+    position: absolute;
+    left:0px;
+    top:470px;
+    width: 325px;
+    height:45px;
+    border-radius: 5px;
+    border:none;
+    background-color:#2196F3 ;
+    color:white;
+    font-size: 12px;
+}
+.by{
+    position: absolute;
+    left:160px;
+    top:530px;
+    font-size: 12px;
+    color:rgb(187, 182, 182);
+}
+.last{
+    position: absolute;
+   
+    left:0px;
+    top:560px;
+    width: 325px;
+    height:45px;
+    border-radius: 5px;
+    border:none;
+    background-color:white;
+    box-shadow: 0px 1.5px 3px gainsboro;
+    color:black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.gimage{
+    width:15px;
+    height:15px;
+    position: absolute;
+    left:30px;
+}
+
+
+
+
+
+
+
+
+        @media (max-width:768px){
+            .total{
+            width:450px;
+            height:1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            /* background-color: rgb(51, 51, 66); */
+            margin: 0px auto;
+        } 
+        .set1{
+            width:450px;
+            height:250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(9, 115, 214);
+            /* overflow: hidden; */
+            position: relative;
+
+        }
+        .set2{
+            margin-top:20px;
+            margin-left:20px;
+            margin-bottom: 100px;
+            width:350px;
+            height:700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: green; */
+        }
+        .set{
+            position: absolute;
+            opacity: 0.2;
+            width:450px;
+            height:230px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+.logo{
+position: absolute;
+top:60px;
+left:60px;
+}
+.head{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+ .quotes i{
+color:aqua;
+font-size:18px;
+position: absolute;
+top:250px;
+left:80px;
+display: none;
+}
+.para{
+position: absolute;
+top:280px;
+left:80px;
+font-size: 16px;
+color: white;
+line-height: 30px;
+display: none;
+}
+.sqr{
+    width:15px;
+    height:15px;
+    border-radius: 25px;
+    position: relative;
+    background-color: rgb(9, 171, 9);
+    top:140px;
+    right:60px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+.sqr i{
+display: flex;
+align-items: center;
+color:white;
+font-size: 8px;
+font-weight: lighter;
+display: none;
+}
+}
+
+    </style>
+</head>
+<body>
+<div class="total">
+    <div class="set1">
+        <img src="/Image/building.jfif" class="set">
+        <img src="/Image/Logo.png" class="logo">
+        <p class="head">Oasis</p>
+        <label class="quotes"> <i class="fa fa-quote-left" ></i></label>
+        <p class="para">The passage experienced a surge in popularity <br>during the 1960s when letraset used it on their<br>dry-transfer sheets, and again during the 90s as <br> desktop publishers bundled the text with their <br>software.<br><br>Vincent Obi<div class="sqr"><i class="fa fa-check"></i></div></p>
+    </div>
+    <div class="set2">
+    <h2>Register Individual Account!</h2>
+    <p class="sub">For the purpose of industry regulation, your<br>details are required.</p>
+    <label class="lab1">Your fullname*</label>
+    <input type="text" value="      Invictus Innocent" class="txt1"required>
+    <label class="lab2">Email address*</label>
+    <input type="text" placeholder="      Enter email address" class="txt2"required>
+    <label class="lab3">Create password*</label>
+    <input type="text" placeholder="      Enter password"  class="txt3"required><span class="side">Show</span>
+
+
+    <label class="container">
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>&emsp;&emsp;
+     I agree to terms & conditions</label>
+
+    <button >Register Account</button>
+    <br>
+    <span class="by">or</span>
+    <br>
+    <button class="last"><img src="/Image/g.png" alt="" class="gimage">Register with Google</button>
+    </div>
+</div>
+</body>
+</html>
