@@ -1,10 +1,10 @@
 Figma layout
 ![figmalayout](https://user-images.githubusercontent.com/102942137/164969144-090f0f30-9bab-4c24-83a4-f717d725ec85.png)
 
-Responsive register screen in desktop view
+Responsive register screen in desktop view ,tab ,mobile view
 ![register page](https://user-images.githubusercontent.com/102942137/164969167-40cd06ad-2c6a-4eac-9881-7ce2f4f82530.png)
 
-In tab and mobile view
+
 ![register in mobile view](https://user-images.githubusercontent.com/102942137/164969193-c21e4edc-d742-4fbf-a8da-69741fe70185.png)
 
 Google home page
