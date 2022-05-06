@@ -52,3 +52,4 @@ Javascript-1)click and fetch data
 ![switch tabs1](https://user-images.githubusercontent.com/102942137/167121027-a8f106dd-71ae-40aa-906e-e51e08afb077.png)
 
 ![swtich tabs2](https://user-images.githubusercontent.com/102942137/167121078-c918348c-c740-401b-ad91-4b2565da72ab.png)
+
