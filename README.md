@@ -34,3 +34,21 @@ TABLE UI
 
 FIGMA BUTTON 
 ![BUTTON](https://user-images.githubusercontent.com/102942137/164969277-d4db7765-5df2-45e0-8b4a-c82e0640d34a.png)
+
+Javascript-1)click and fetch data
+
+![click model1](https://user-images.githubusercontent.com/102942137/167120805-029ae3ad-3099-4eea-bcab-ac316c473630.png)
+
+![click model2](https://user-images.githubusercontent.com/102942137/167120892-31c989e4-e344-468e-9561-cb856daf91d1.png)
+
+2)scroll and intersection
+
+![scroll and intersection](https://user-images.githubusercontent.com/102942137/167120966-96a7180c-7072-47c9-bcda-00cc7f11b26a.png)
+
+![scroll and intersection 2](https://user-images.githubusercontent.com/102942137/167120978-f9ebcd79-a3f6-43da-bbf1-7172cd73814c.png)
+
+3)switch tabs
+
+![switch tabs1](https://user-images.githubusercontent.com/102942137/167121027-a8f106dd-71ae-40aa-906e-e51e08afb077.png)
+
+![swtich tabs2](https://user-images.githubusercontent.com/102942137/167121078-c918348c-c740-401b-ad91-4b2565da72ab.png)
