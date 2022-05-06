@@ -20,6 +20,7 @@ nav{
     justify-content:right;
     height: 30px;
     margin-top: 16px;
+    margin-right: 5px;
    
 }
 .header-nav{
@@ -221,7 +222,6 @@ padding-bottom: 25px;
 
 .circ{
     position: fixed;
-    
     width:40px;
     height: 40px;
     border-radius:50px;
@@ -272,7 +272,7 @@ height:15px;
     position: relative;
     left:38px;
     bottom:25px;
-    width: 10px;
+    width: 26px;
     height:26px;
     border-radius: 25px;
     display: flex;
@@ -344,7 +344,7 @@ height:15px;
         position: relative;
         left:38px;
         bottom:25px;
-        width: 10px;
+        width: 22px;
         height:22px;
         border-radius: 25px;
         display: flex;
@@ -468,7 +468,7 @@ height:12px;
     position: relative;
     left:15px;
     bottom:8px;
-    width: 5px;
+    width: 10px;
     height:10px;
     border-radius: 25px;
     display: flex;
@@ -570,7 +570,7 @@ height:10px;
     position: relative;
     left:12px;
     bottom:9px;
-    width: 5px;
+    width: 10px;
     height:10px;
     border-radius: 25px;
     display: flex;

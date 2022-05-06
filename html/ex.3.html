@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exercise 3</title>
+    <style type="text/css">
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(4, 92, 146);
+        }
+        .wrap{
+            background-color: white;
+            height:300px;
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+        }
+        .tab{
+            width:1000px;
+            height:200px;
+            margin: 0px auto;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+        .box1{
+            display: none;
+            position:absolute;
+            top:165px;
+            width:1000px;
+            height:155px;
+        }
+    .button_1{
+     background-color: rgb(179, 179, 172);
+     width:320px;
+     height:50px;
+     color:black;
+     border-radius: 5px;
+     border:none;
+     font-weight:bold;
+     font-size:18px;
+     }
+    .button_1:hover{
+     background-color:rgb(5, 104, 165);
+    }
+   
+   
+  p{
+    font-weight: bold;
+    font-size:25px;
+    padding-left:50px;
+    padding-top: 30px;
+   }
+        
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="tab">
+
+<div class="box">
+<button class="button_1" onclick="showPanel(0,'#FFFF00')">Javascript</button>
+<button class="button_1" onclick="showPanel(1,'#228B22')">Ruby</button>
+<button class="button_1" onclick="showPanel(2,'#FFA500')">Php</button>
+</div>
+<div class="box1">
+    <p>JAVASCRIPT is easy to learn  !!  Javascript is new</p>
+</div>
+<div class="box1">
+    <p>RUBY is easy to learn  !!  Ruby is new</p>
+</div>
+<div class="box1">
+    <p>PHP is easy to learn  !!  Php is new</p>
+</div>
+
+</div>
+</div>
+
+<script src="/TASK/js/ex.3.js"></script>
+</body>
+</html>
