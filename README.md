@@ -53,8 +53,11 @@ Javascript-1)click and fetch data
 
 ![swtich tabs2](https://user-images.githubusercontent.com/102942137/167121078-c918348c-c740-401b-ad91-4b2565da72ab.png)
 
-
-to do list in js
+JAVA SCRIPT
+Todo list 
 ![todo1](https://user-images.githubusercontent.com/102942137/168013843-e4a017fd-7281-4d87-8c7e-9eb3ef1b3b74.png)
 ![todo2](https://user-images.githubusercontent.com/102942137/168013873-10ba3a35-ea24-4d5e-9266-8f376abc3c64.png)
 ![todo3](https://user-images.githubusercontent.com/102942137/168013887-a7217229-49ec-44eb-bd03-f1955d172b8c.png)
+
+Fetch API and to display in UI and Console
+![fetch api](https://user-images.githubusercontent.com/102942137/168312936-f206f96e-f0ec-48e6-9463-90adc5ec1e69.png)
