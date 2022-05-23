@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>google layout</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style type="text/css">
+        body{
+            margin-left:200px;
+            margin-top:200px;
+        }
+.heart-shape{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(150deg);
+  background-color: rgba(250,184,66, 1);
+ 
+}
+.heart-shape:before,
+.heart-shape:after{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: '';
+  border-radius: 50%;
+  background-color: rgba(250,184,66, 1);
+}
+.heart-shape:before{
+top: 20px;
+  right: -80px;
+}
+.heart-shape:after{
+top: 20px;
+  left: -80px;
+}        
+</style>
+</head>
+<body>
+    <div class="heart-shape"></div>
+</body>
+</html>

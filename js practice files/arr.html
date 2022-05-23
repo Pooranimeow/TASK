@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a=new Array("wes",20,true,{a:10,b:20,c:30});
+        console.log(a);
+        console.table(a);
+        const s=[{name:"wes",age:10,city:"erode"},
+        {name:"ws",age:20,city:"salem"},
+        {name:"wees",age:30,city:"erode"},
+        {name:"wess",age:40,city:"salem"}];
+        console.table(s);
+
+       // map
+        const lit=s.map(values=>({
+        ...values,
+        status: values.age>=18 ? "eligible" : "not eligible"
+        }));
+        console.table(lit);
+
+        //splice--mutable--affect original array
+        const tech=[1,2,3,4,5,6,7,8,9];
+        console.log(tech);
+        const t=tech.splice(2,4,22,33,44,55);//(index,length) or (index,length,replace values) or (index,length=0,insert values)
+        console.log(t);
+        console.log(tech);
+
+        //slice---not affect original array
+        const techs=[1,2,3,4,5,6,7,8,9];
+        console.log(techs);
+        const ts=techs.slice(2,4);//(start index,end index)
+        console.log(ts);
+        console.log(techs);
+        
+    </script>
+</body>
+</html>

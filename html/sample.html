@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        sample
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            
+        }
+        .cont{
+            margin:0px auto;
+            width: 100%;
+            max-width: 1024px;
+        }
+       
+        .title{
+             text-align:center; 
+            font-size: bold;
+            font-weight: 800;
+            font-family: 'Indie Flower';
+            
+            padding: 20px 50px; 
+            border:2px solid black;
+            
+}
+        .tit{
+            
+            
+            background-color: aqua;
+           padding: 20px;
+          
+            border:2px solid black;
+        } 
+        .container{
+            background-color: pink;
+            display:flex;
+            flex-direction: row;
+           
+            margin: 10px;
+            justify-content:center;
+            align-items: center;
+            height:300px;
+        }
+        .child-cont{
+            width:70px;
+            line-height: 50px;
+            background-color: green;
+            color:black;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .grid-container{
+            background-color: grey;
+            display: grid;
+            grid-template-columns: auto  auto auto;
+            grid-template-rows: auto auto;
+            justify-content:space-around;
+            align-content: center;
+            /* grid-row-gap: 100px;
+            grid-column-gap:100px; */
+            /* grid-gap:100px 100px; */
+            
+            margin: 10px;
+            height:400px;
+        }
+        .grid-cont{
+            width:70px;
+            line-height: 50px;
+            text-align: center;
+            color:black;
+            margin: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h2 class="title">title goes here</h2>
+        <h2 class="title">title goes here</h2>
+        <a class="tit"href="#">LINK HERE</a>
+        <div class="container">
+            <div class="child-cont"style="order:3;  flex-shrink:2 ; flex-basis:500px; align-self:flex-start;">A</div>
+            <div class="child-cont"style="order:2;  flex-shrink:1; flex-basis:100px; align-self:center;">B</div>
+            <div class="child-cont"style="order:1;  flex-shrink: 5; flex-basis:100px;align-self:flex-end;">C</div>
+            <div class="child-cont"style="order:5; flex-grow: 1; flex-shrink:1 ; flex-basis:100px;">D</div>
+            <div class="child-cont"style="order:4;  flex-shrink: 2; flex-basis:100px;">E</div>
+            
+            
+        </div>
+        <div class="grid-container">
+            <div class="grid-cont"style="background-color:pink;  
+             grid-column: 2/span 2;
+             grid-row:1/span 3;"
+            >A</div>
+            <div class="grid-cont"style="background-color:green;grid-area:2/1/span2/span3;">B</div>
+            <div class="grid-cont"style="background-color:red;">C</div>
+            <div class="grid-cont"style="background-color:blue;">D</div>
+            <div class="grid-cont"style="background-color:orange;">E</div>
+            <div class="grid-cont"style="background-color:white;">F</div>
+            
+        </div>
+    </div>
+    
+        
+
+
+    
+</body>
+</html>

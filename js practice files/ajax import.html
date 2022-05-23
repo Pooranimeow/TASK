@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APIs</title>
+  
+</head>
+<body>
+  <p class="user"></p>
+  
+  <script type="module">
+    
+    import hello,{ num_set,name } from "./export.js";
+            console.log(num_set);
+            hello();
+            console.log(`this is the name ${name}`);
+            
+    function handleError(err) {
+      console.log("OH NO!");
+      console.log(err);
+    }
+    const userEl = document.querySelector(".user");
+    const endpoint = "https://api.github.com/users/wesbos";
+    const wesPromise = fetch(endpoint);
+    wesPromise
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        console.log(data.blog);
+        console.log(data.company);
+        console.log(data.location);
+        userEl.textContent = `${data.company} - ${data.blog}`;
+      })
+      .catch(handleError);
+  </script>
+</body>
+</html>
